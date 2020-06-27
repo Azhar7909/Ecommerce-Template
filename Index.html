@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazoona</title>
+</head>
+<body>
+    <div class="gridContainer">
+        <header class="header">
+           <div class="brand">
+               <button class="sidebarButton" onclick="openMenue()"> 
+                  &#9776;
+               </button>
+               <a href="http://"> Amazoona</a>
+           </div>
+           <div class="headerLinks">
+               <a href="http://">Cart</a>
+               <a href="http://">signin</a>
+               <a href="http://">signup</a>
+           </div>
+        </header>
+        <aside class="sidebar">
+            <div class="sidebarHead">
+                <h3>Shoping Categories</h3>
+                <button class="sidebarCloseButton" onclick="closeMenue()"> X </button>
+            </div>
+            <ul>
+                <li><a href="index.html">Paints</a></li><br/>
+                <li><a href="index.html">Shirts</a></li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="productImg" src="./images/slimShirt.jpg" alt="product Image">
+                            <div class="productName">
+                                <a href="product.html">Slim Shirt</a>
+                            </div>
+                            <div class="productBrand">Nike</div>
+                            <div class="productPrice">$60</div>
+                            <div class="productRating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            All right reserved!
+        </footer>
+    </div>
+
+    <script>
+        function openMenue() {
+            document.querySelector(".sidebar").classList.add("open")
+        }
+        function closeMenue() {
+            document.querySelector(".sidebar").classList.remove("open")
+        }
+    </script>
+</body>
+</html>
